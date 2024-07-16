@@ -1621,6 +1621,14 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
+		.image.avatar {
+			float: left;
+			margin: 0 2em 2em 0;
+			clip-path: circle();
+			width: 190px;
+    		height: auto;
+		}
+
 /* Button */
 
 	input[type="button"],
