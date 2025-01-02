@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+@import url("fontawesome-allbomin.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
 /*
@@ -175,6 +175,30 @@ input, select, textarea {
 	}
 
 /* Container */
+
+.video-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%; 
+	overflow: hidden;
+  }
+  .video-container video {
+	/* Make video to at least 100% wide and tall */
+	min-width: 100%; 
+	min-height: 100%; 
+  
+	/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+	width: auto;
+	height: auto;
+  
+	/* Center the video */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+  }
 
 	.container {
 		margin: 0 auto;
@@ -2010,13 +2034,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #8b55ca url("images/overlay.png");
+			background: #270c46 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #8b55ca url("images/overlay.png");
+				background: #270c46 url("images/overlay.png");
 				color: #fff;
 			}
 
