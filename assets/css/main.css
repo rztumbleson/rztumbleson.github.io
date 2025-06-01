@@ -1882,7 +1882,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #8b55ca !important;
+			color: #625175 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2049,11 +2049,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background: #fff;
+			background: #f3f3f3;
 		}
 
 			.wrapper.style2 .title {
-				background: #fff;
+				background: #f3f3f3;
 				color: #484d55;
 			}
 
@@ -2278,7 +2278,7 @@ input, select, textarea {
 
 /* Features */
 
-	#features header.style1 {
+	#features style1 {
 		padding-bottom: 5em;
 	}
 
