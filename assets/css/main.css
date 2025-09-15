@@ -2034,13 +2034,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #270c46 url("images/overlay.png");
+			background: #8f6cac url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #270c46 url("images/overlay.png");
+				background: #8f6cac url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2049,12 +2049,16 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background: #f3f3f3;
+			background: #f3f3f3 url("images/overlay.png");
 		}
 
-			.wrapper.style2 .title {
-				background: #f3f3f3;
+		.wrapper.style2 .title {
+				background: #f3f3f3 url("images/overlay.png");
 				color: #484d55;
+			}
+
+		.wrapper.style2 .image {
+				border: none;
 			}
 
 		.wrapper.style3 {
@@ -3014,3 +3018,8 @@ input, select, textarea {
 						}
 
 	}
+section,
+article {
+    margin-top: 0;
+    margin-bottom: 0; /* or your preferred value */
+}
