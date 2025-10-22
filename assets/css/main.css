@@ -2049,11 +2049,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #ffffff;
 		}
 
 		.wrapper.style2 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #ffffff;
 				color: #484d55;
 			}
 
